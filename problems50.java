@@ -3,6 +3,7 @@ import java.util.*;
 
 public class problems50{
     public static void main(String[] args) {
+        ten();
         one();
         two();
         three();
@@ -12,6 +13,7 @@ public class problems50{
         seven();
         eight();
         nine();
+        
     }
     public static void one(){
        
@@ -69,11 +71,22 @@ public class problems50{
 public static void nine(){
        int a = 5;
        for(int i=1;i<=a;i++){
-            for(int x=i;x<=i;x++){
-                System.out.print("*");
+            for(int x=1;x<=i;x++){
+                System.out.print("* ");
             }
-            System.out.print();
+            System.out.println();
        }
-}
 
+
+
+}
+public static void ten(){
+    int a = 5;
+        for(int i = a ;1>=i;i++){
+          for(int x = 1;x<=i;x--){
+                System.out.println("* ");
+          }
+          System.out.println();
+        }   
+}
 }
