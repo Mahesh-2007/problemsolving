@@ -81,12 +81,15 @@ public static void nine(){
 
 }
 public static void ten(){
-    int a = 5;
-        for(int i = a ;1>=i;i++){
-          for(int x = 1;x<=i;x--){
-                System.out.println("* ");
-          }
-          System.out.println();
+    int rows , columns;
+    int N= 5;
+    for (rows = 1; rows <= N; rows++) {
+        for (columns = 1; columns <= N - rows +1; columns++) {
+
+            System.out.print("  " + columns);
+        }
+        System.out.println();
         }   
 }
+
 }
