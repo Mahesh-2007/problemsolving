@@ -13,7 +13,7 @@ public class problems50{
         seven();
         eight();
         nine();
-        
+        eleven();
     }
     public static void one(){
        
@@ -91,5 +91,11 @@ public static void ten(){
         System.out.println();
         }   
 }
-
+public static void eleven(){
+for(int i=1;i<=5;i++){
+    for(int j=1;j<=5;j++){
+        System.out.print(" * ");
+}System.out.println();
+}
+}
 }
