@@ -14,7 +14,9 @@ public class problems50{
         eight();
         nine();
         eleven();
-    }
+        twelve();
+}
+    
     public static void one(){
        
         System.out.println("Hello");
@@ -89,13 +91,23 @@ public static void ten(){
             System.out.print("  " + columns);
         }
         System.out.println();
-        }   
+        }  
 }
 public static void eleven(){
 for(int i=1;i<=5;i++){
     for(int j=1;j<=5;j++){
-        System.out.print(" * ");
-}System.out.println();
+        System.out.print(i*j+" ");
+} 
+System.out.println();}
 }
-}
-}
+public static void twelve(){
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+        System.out.print("enter num to check odd or even: ");
+        if(n % 2 == 0) {
+            System.out.println("even");
+        } else {
+            System.out.println("odd");
+        }
+}}
