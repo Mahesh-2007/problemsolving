@@ -4,6 +4,7 @@ import java.util.*;
 public class problems50{
     public static void main(String[] args) {
         ten();
+        thirteen();
         one();
         two();
         three();
@@ -110,4 +111,30 @@ public static void twelve(){
         } else {
             System.out.println("odd");
         }
-}}
+}
+public static void thirteen(){
+      boolean vowels = false;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the Character(Not a words or Number) : ");
+        char ch=sc.next().charAt(0);
+
+        switch (ch){
+            case 'a' :
+            case 'e' :
+            case 'i' :
+            case 'o' :
+            case 'u' :
+            case 'A' :
+            case 'E' :
+            case 'I' :
+            case 'O' :
+            case 'U' :
+                vowels=true;
+        }
+        if(vowels==true){
+            System.out.println(ch + " is a vowels.");
+        }else {
+            System.out.println(ch + " is a consonant.");
+        }
+}
+}
