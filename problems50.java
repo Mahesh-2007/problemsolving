@@ -5,6 +5,7 @@ public class problems50{
     public static void main(String[] args) {
         ten();
         thirteen();
+        forteen();
         one();
         two();
         three();
@@ -135,6 +136,29 @@ public static void thirteen(){
             System.out.println(ch + " is a vowels.");
         }else {
             System.out.println(ch + " is a consonant.");
+ 
         }
 }
+    public static void forteen() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("ENTER THE WORD : ");
+        String str = sc.nextLine();
+
+        int vcount = 0, ccount = 0;
+
+
+        str = str.toLowerCase();
+        for (int i = 0; i < str.length(); i++) {
+            char ch = str.charAt(i);
+            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+                vcount++;
+            } else if ((ch >= 'a' && ch <= 'z')) {
+                ccount++;
+            }
+        }
+        System.out.println("Number of Vowels: " + vcount);
+        System.out.println("Number of Consonants: " + ccount);
+
+    }
+
 }
