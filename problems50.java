@@ -5,6 +5,7 @@ public class problems50{
     public static void main(String[] args) {
         ten();
         thirteen();
+        fifteen();
         forteen();
         one();
         two();
@@ -160,5 +161,21 @@ public static void thirteen(){
         System.out.println("Number of Consonants: " + ccount);
 
     }
+              public static void fifteen(){
+                   int N ;
+    Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number : ");
+        N = sc.nextInt();
+        if (N % 2 != 0 ){
 
+        System.out.println(" PRIME NUMBER ");
+
+
+    }else {
+            System.out.println("NOT A PRIME NUMBER (Except 2) ");
+        }
+
+    }
+
+              
 }
