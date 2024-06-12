@@ -6,6 +6,7 @@ public class problems50{
         ten();
         thirteen();
         fifteen();
+        sixteen();
         forteen();
         one();
         two();
@@ -176,6 +177,13 @@ public static void thirteen(){
         }
 
     }
+  public static void sixteen(){
 
-              
+double a , b , ans;
+ a = 2.50;
+ b = 2.50;
+ans = a + b;
+        System.out.println(ans);
+    }
 }
+              
