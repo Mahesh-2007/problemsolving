@@ -7,6 +7,7 @@ public class problems50{
         thirteen();
         fifteen();
         sixteen();
+        seventeen();
         forteen();
         one();
         two();
@@ -141,6 +142,17 @@ public static void thirteen(){
  
         }
 }
+ public static void seventeen() {
+        int a,b,sum;
+        Scanner num1 = new Scanner(System.in);
+        System.out.println("Enter the First number (MULTIPLY) : ");
+        a = num1.nextInt();
+        Scanner num2 = new Scanner(System.in);
+        System.out.println("Enter the Second number (MULTIPLY) : ");
+        b = num2.nextInt();
+        sum = a * b;
+        System.out.println("The answer is : " + sum);
+    }
     public static void forteen() {
         Scanner sc = new Scanner(System.in);
         System.out.println("ENTER THE WORD : ");
