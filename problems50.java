@@ -8,6 +8,7 @@ public class problems50{
         fifteen();
         sixteen();
         seventeen();
+        Yearleap();
         forteen();
         one();
         two();
@@ -142,6 +143,32 @@ public static void thirteen(){
  
         }
 }
+public static void Yearleap() {
+    int year;
+    Scanner scan = new Scanner(System.in);
+    System.out.println("Enter any Year:");
+    year = scan.nextInt();
+
+    boolean isLeap = false;
+
+    if(year % 4 ==0){
+        if(year % 100 ==0){
+            if (year % 400 == 0) {
+            }else {
+                isLeap =false;
+            }
+            }else {
+            isLeap = true;}
+        }else {isLeap = false;}
+
+    if(isLeap == true){
+        System.out.println(year + " is a Leap Year.");
+    }else {
+        System.out.println(year + " is a Not Leap Year.");
+    }
+
+    }
+
  public static void seventeen() {
         int a,b,sum;
         Scanner num1 = new Scanner(System.in);
