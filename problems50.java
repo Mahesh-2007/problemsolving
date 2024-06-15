@@ -9,6 +9,7 @@ public class problems50{
         sixteen();
         seventeen();
         Yearleap();
+        length();
         forteen();
         one();
         two();
@@ -22,7 +23,10 @@ public class problems50{
         eleven();
         twelve();
 }
-    
+public static void length(){
+    String A  = new Scanner(System.in).next();
+    System.out.println(A.length());
+}   
     public static void one(){
        
         System.out.println("Hello");
