@@ -16,6 +16,7 @@ public class problems50{
         three();
         four();
         five();
+        rem();
         six();
         seven();
         eight();
@@ -26,7 +27,14 @@ public class problems50{
 public static void length(){
     String A  = new Scanner(System.in).next();
     System.out.println(A.length());
-}   
+}
+   public static void rem() {
+    int a,b; 
+    Scanner sc = new Scanner(System.in);
+    a = sc.nextInt();
+    b = sc.nextInt();
+    System.out.println(a%b);
+   }
     public static void one(){
        
         System.out.println("Hello");
