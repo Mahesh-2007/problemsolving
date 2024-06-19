@@ -31,6 +31,7 @@ public static void length(){
    public static void rem() {
     int a,b; 
     Scanner sc = new Scanner(System.in);
+    System.out.println("ENTER THE NUMBER TO FIND REM : ");
     a = sc.nextInt();
     b = sc.nextInt();
     System.out.println(a%b);
