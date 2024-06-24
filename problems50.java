@@ -3,6 +3,7 @@ import java.util.*;
 
 public class problems50{
     public static void main(String[] args) {
+        printN();
         ten();
         thirteen();
         fifteen();
@@ -23,6 +24,12 @@ public class problems50{
         nine();
         eleven();
         twelve();
+        
+}
+public static void printN(){
+    Scanner sc = new Scanner(System.in);
+    int N = sc.nextInt();
+    System.out.println(N*(N-1)/2);
 }
 public static void length(){
     String A  = new Scanner(System.in).next();
