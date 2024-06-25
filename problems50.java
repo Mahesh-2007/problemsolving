@@ -56,8 +56,11 @@ public static void length(){
     }
     public static void three(){
     int a , b;
-    a = 10;
-    b = 2;
+    Scanner sc = new Scanner(System.in);
+    System.out.println("ENTER THE FIRST NUMBER : ");
+    a = sc.nextInt();
+    System.out.println("ENTER THE SECOND NUMBER : ");
+    b = sc.nextInt();
     System.out.println(a/b);
     }
     public static void four() {
