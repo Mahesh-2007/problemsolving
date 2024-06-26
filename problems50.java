@@ -24,7 +24,18 @@ public class problems50{
         nine();
         eleven();
         twelve();
-        
+        A();
+
+}
+public static void A(){
+    Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+    int b = sc.nextInt();
+    if(a<b){
+        System.out.println("A is begger than B");
+    }else{
+        System.out.println("B is begger than A");
+    }
 }
 public static void printN(){
     Scanner sc = new Scanner(System.in);
