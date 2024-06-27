@@ -28,6 +28,7 @@ public class problems50{
 
 }
 public static void A(){
+
     Scanner sc = new Scanner(System.in);
     int a = sc.nextInt();
     int b = sc.nextInt();
@@ -49,8 +50,9 @@ public static void length(){
    public static void rem() {
     int a,b; 
     Scanner sc = new Scanner(System.in);
-    System.out.println("ENTER THE NUMBER TO FIND REM : ");
+    System.out.println("ENTER THE 1st NUMBER TO FIND REM : ");
     a = sc.nextInt();
+    System.out.println("ENTER THE 2nd NUMBER TO FIND REM : ");
     b = sc.nextInt();
     System.out.println(a%b);
    }
