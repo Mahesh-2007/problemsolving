@@ -100,7 +100,10 @@ public static void length(){
         
         int a = new Scanner(System.in).nextInt();
         
-        for(int i = 1;i<=10;i++)
+        System.out.println("ENTER WHICH TABLES YOU WANT :");
+        int b = new Scanner(System.in).nextInt();
+        System.out.println("ENTER HOW MANY TIMES YOU WANT :");
+        for(int i = 1;i<=b;i++)
         {
             System.out.println(a + " x "+ i +" = " + a*i);
         }
