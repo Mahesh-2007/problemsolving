@@ -110,8 +110,10 @@ public static void length(){
     }
     public static void eight(){
         //find area and primeter
-        double width = 5.5;
-        double height = 8.5;
+        double width , height;
+        Scanner sc = new Scanner(System.in);
+        width = sc.next();
+        height = sc.next();
         System.out.println("AREA = WIDTH : "+ width + " X HEIGHT : " + height +" = "+   width*height);
         System.out.println("perimeter : "+ 2*(height+width));
     }
