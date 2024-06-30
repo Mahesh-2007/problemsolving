@@ -118,7 +118,9 @@ public static void length(){
         System.out.println("perimeter : "+ 2*(height+width));
     }
 public static void nine(){
-       int a = 5;
+       int a ;
+       Scanner sc = new Scanner(System.in);
+       a = sc.nextInt();
        for(int i=1;i<=a;i++){
             for(int x=1;x<=i;x++){
                 System.out.print("* ");
