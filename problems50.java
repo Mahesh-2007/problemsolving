@@ -262,8 +262,9 @@ public static void Yearleap() {
   public static void sixteen(){
 
 double a , b , ans;
- a = 2.50;
- b = 2.50;
+ Scanner sc = new Scanner(System.in);
+ a = sc.next();
+ b = sc.next(); 
 ans = a + b;
         System.out.println(ans);
     }
