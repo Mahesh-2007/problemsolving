@@ -7,6 +7,7 @@ public class problems50{
         ten();
         thirteen();
         fifteen();
+        NUMBERS();
         sixteen();
         seventeen();
         Yearleap();
@@ -258,6 +259,12 @@ public static void Yearleap() {
             System.out.println("NOT A PRIME NUMBER (Except 2) ");
         }
 
+    }
+    public static void NUMBERS(){
+        int a = new Scanner(System.in).nextInt();
+        for(int i=1;i<=a;i++){
+            System.out.println(i);
+        }
     }
   public static void sixteen(){
 
