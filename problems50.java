@@ -58,9 +58,11 @@ public static void length(){
     System.out.println(a%b);
    }
     public static void one(){
-       
-        System.out.println("Hello");
-        System.out.println("World");
+       Scanner sc = new Scanner(System.in);
+       System.out.println("ENTER WORD");
+       String a = sc.nextLine();
+        System.out.println("Hello !");
+        System.out.println(a);
     }
     public static void two(){
      int a , b ;
