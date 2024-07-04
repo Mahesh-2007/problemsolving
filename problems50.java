@@ -92,8 +92,10 @@ public static void length(){
     }
     public static void six(){
         // arithmetic operators
-        int a = 5;
-        int b = 10;
+        int a,b;
+        Scanner sc = new Scanner(System.in);
+        a = sc.nextInt();
+        b = sc.nextInt(); 
         System.out.println("add"+ a+b);
         System.out.println(a-b + " sub ");
         System.out.println("module" + a%b);
