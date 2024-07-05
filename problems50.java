@@ -94,7 +94,9 @@ public static void length(){
         // arithmetic operators
         int a,b;
         Scanner sc = new Scanner(System.in);
+        System.out.println("ENTER 1st NUMBER");
         a = sc.nextInt();
+        System.out.println("ENTER 2nd NUMBER");
         b = sc.nextInt(); 
         System.out.println("add"+ a+b);
         System.out.println(a-b + " sub ");
