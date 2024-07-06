@@ -127,6 +127,7 @@ public static void length(){
 public static void nine(){
        int a ;
        Scanner sc = new Scanner(System.in);
+       System.out.println("Enter how many times you want");
        a = sc.nextInt();
        for(int i=1;i<=a;i++){
             for(int x=1;x<=i;x++){
