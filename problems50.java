@@ -283,5 +283,11 @@ ans = a + b;
         System.out.println(ans);
     }
 }
-
-              
+public static void primeNO() {
+    for (int i = 2; i <= 100; i++) {
+        int count = 0;
+        if(i%2!=0){
+        System.out.println(i);
+        }
+    }
+}
