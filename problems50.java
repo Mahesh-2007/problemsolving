@@ -284,7 +284,7 @@ ans = a + b;
     }
 }
 public static void primeNO() {
-    System.out.println("ENTER THE NUMBER ");
+    System.out.println("ENTER TILL WHICH NUMBER YOU WANT ");
     int n = new Scanner(System.in).nextInt();
     
     for (int i = 2; i <= n; i++) {
