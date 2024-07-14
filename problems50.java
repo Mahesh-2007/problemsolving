@@ -21,9 +21,9 @@ public class problems50{
         rem();
         six();
         seven();
+        sixteen();
         eight();
         primeNO();
-
         nine();
         eleven();
         twelve();
@@ -295,7 +295,7 @@ public static void primeNO() {
         System.out.println(i);
         }
     }
-    public static void fifteen(){
+    public static void sixteen(){
       System.out.println(23*20);
     }
 }
