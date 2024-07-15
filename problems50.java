@@ -298,4 +298,19 @@ public static void primeNO() {
     public static void sixteen(){
       System.out.println(23*20);
     }
+     public static void calc() {
+        Scanner sc = new Scanner(System.in);
+        String a = nextLine();
+        int x =  sc.nextInt();
+        int y =  sc.nextInt();
+        switch (a) {
+            case +:
+               System.out.println(x+y);
+                
+                break;
+        
+            default:
+                break;
+        }
+     }
 }
