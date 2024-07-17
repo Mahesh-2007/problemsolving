@@ -310,7 +310,9 @@ public static void primeNO() {
                 break;
                 case -:
                 System.out.println(x-y);
-                 
+                 break;
+                  case *:
+                System.out.println(x*y);
                  break;
             default:
                 break;
