@@ -305,8 +305,7 @@ public static void primeNO() {
         int y =  sc.nextInt();
         switch (a) {
             case +:
-               System.out.println(x+y);
-                
+               System.out.println("ANSWER IS :"+ x+y);
                 break;
                 case -:
                 System.out.println(x-y);
