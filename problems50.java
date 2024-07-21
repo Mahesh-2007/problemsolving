@@ -308,7 +308,7 @@ public static void primeNO() {
                System.out.println("ANSWER IS :"+ x+y);
                 break;
                 case -:
-                System.out.println(x-y);
+                System.out.println("ANSWER IS :"+ x-y);
                  break;
                   case *:
                 System.out.println(x*y);
